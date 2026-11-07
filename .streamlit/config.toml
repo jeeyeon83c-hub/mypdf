@@ -1,0 +1,10 @@
+# 라이트/다크 모드는 사용자 시스템 설정을 따르고, 모드별 강조 색만 지정한다.
+# ([theme]에 직접 색을 넣으면 다크 모드 자동 전환이 꺼지므로 모드별 섹션을 쓴다.)
+[theme.light]
+primaryColor = "#4F46E5"
+
+[theme.dark]
+primaryColor = "#818CF8"
+
+[browser]
+gatherUsageStats = false
