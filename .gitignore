@@ -1,0 +1,13 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.venv/
+
+# 루트에 둔 실제 PDF(개인정보·저작권 자료)는 올리지 않는다. 테스트용 PDF는 tests/fixtures/에 있다.
+/*.pdf
+
+# 테스트 산출물
+tests/screenshots/
+tests/e2e_results.json
+.pytest_cache/
